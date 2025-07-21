@@ -1,10 +1,9 @@
 #!/usr/bin/python3
-"""
-Displays the TODO list progress of an employee using a REST API.
-"""
+"""Displays the TODO list progress of an employee using a REST API."""
 
 import requests
 import sys
+
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
